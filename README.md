@@ -28,9 +28,6 @@ Setelah data dibersihkan, diperoleh gambaran distribusi data penjualan sebagai b
 * Rata-rata (*mean*) kuantitas barang per transaksi menunjukkan kebiasaan pembelian pelanggan (eceran vs grosir).
 * Distribusi nilai `Total_Revenue` menunjukkan adanya beberapa transaksi bernilai tinggi (*high-value orders*) yang berpotensi berasal dari klien B2B.
 
-*(Catatan: Anda bisa menambahkan tabel ringkasan fungsi `.describe()` di sini jika diperlukan)*
-
----
 
 ## 🌍 3. Top 10 Negara Penyumbang Omzet Terbesar
 Berdasarkan agregasi total omzet (`Total_Revenue`) per negara, berikut adalah 10 pasar terbesar bagi bisnis ritel ini:
@@ -38,13 +35,10 @@ Berdasarkan agregasi total omzet (`Total_Revenue`) per negara, berikut adalah 10
 | Peringkat | Negara | Kontribusi Omzet / Dominasi Pasar |
 | :---: | :--- | :--- |
 | **1** | United Kingdom (UK) | Pasar domestik utama (penyumbang mayoritas omzet) |
-| **2** | *[Nama Negara Ke-2]* | Pasar ekspansi terbesar di Eropa |
-| **3** | *[Nama Negara Ke-3]* | Pasar potensial dengan rata-rata nilai transaksi tinggi |
-| ... | *[Dst sampai Top 10]* | ... |
+| **2** | *EIRE* | Pasar ekspansi terbesar di Eropa |
+| **3** | *NETHERLANDS* | Pasar potensial dengan rata-rata nilai transaksi tinggi |
+| ... | *GERMANY* | ... |
 
-*(💡 Opsional: Jika Anda mengupload gambar grafik ke GitHub, Anda bisa memunculkan gambarnya di sini dengan sintaks: `![Top 10 Countries](nama_file_gambar.png)`)*
-
----
 
 ## 💡 Rekomendasi Bisnis (Business Recommendations)
 Berdasarkan temuan di atas, beberapa langkah strategis yang direkomendasikan untuk manajemen:
@@ -55,4 +49,4 @@ Berdasarkan temuan di atas, beberapa langkah strategis yang direkomendasikan unt
 ---
 
 ## 🛠️ Struktur Repository
-* `[Nama_File_Notebook_Anda].ipynb`: Notebook utama berisi alur kode lengkap dari *loading data* hingga visualisasi.
+* `online_retail_sales_eda.ipynb`: Notebook utama berisi alur kode lengkap dari *loading data* hingga visualisasi.
